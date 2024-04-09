@@ -1,0 +1,24 @@
+.greeting-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-cards-container {
+  display: flex;
+  flex-direction: row;
+}
+.main-greet {
+  flex-grow: 1;
+  background-color: #f4f4f5;
+  max-width: 60%;
+  height: 100%;
+}
+.main-greet-question {
+  color: #61636a;
+}
+
+.main-greet-answer {
+  font-weight: 300;
+}

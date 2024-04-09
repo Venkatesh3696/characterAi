@@ -1,0 +1,46 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px;
+}
+
+.profile-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-profile-image {
+  background-color: yellow;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  background-color: #ececee;
+  padding: 10px;
+  border-radius: 30px;
+  width: 300px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+input {
+  width: 200px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+}
+.search-icon {
+  font-weight: 300;
+  color: #61636a;
+}
