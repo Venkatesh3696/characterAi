@@ -1,0 +1,22 @@
+.try-these-card {
+  background-color: #e2e3e4;
+  border-radius: 20px;
+  margin: 10px;
+  width: 300px;
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.try-these-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.try-these-heading {
+  font-size: 14px;
+}
+.try-these-para {
+  font-size: 12px;
+}

@@ -4,9 +4,11 @@ import Greeting from "./components/Greeting";
 import Header from "./components/Header";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import TryThese from "./components/TryThese";
 
 function App() {
   const [forYouItems, setForYouItems] = useState([]);
+  const [tryTheseItems, setTryTheseItems] = useState([]);
   useEffect(() => {
     const fetchForYouCharacters = async () => {
       try {
@@ -16,7 +18,17 @@ function App() {
         console.error(error.message);
       }
     };
+    const fetchTryThese = async () => {
+      try {
+        const response = await axios.get("http://localhost:3000/tryThese");
+        setTryTheseItems(response.data);
+      } catch (error) {
+        console.error(error.message);
+      }
+    };
+
     fetchForYouCharacters();
+    fetchTryThese();
   }, []);
 
   return (
@@ -24,6 +36,7 @@ function App() {
       <Header />
       <Greeting />
       <ForYou forYouItems={forYouItems} />
+      <TryThese tryTheseItems={tryTheseItems} />
     </div>
   );
 }

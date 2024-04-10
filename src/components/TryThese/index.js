@@ -1,11 +1,15 @@
 import React from "react";
+import TryTheseCard from "../TryTheseCard";
+import "./index.css";
 
-const TryTheese = () => {
+const TryThese = ({ tryTheseItems }) => {
   return (
-    <ul>
-      <li>itel i</li>
+    <ul className="try-these-container">
+      {tryTheseItems.map((each) => (
+        <TryTheseCard details={each} />
+      ))}
     </ul>
   );
 };
 
-export default TryTheese;
+export default TryThese;

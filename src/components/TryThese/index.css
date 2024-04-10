@@ -1,0 +1,7 @@
+.try-these-container {
+  display: grid;
+  gap: 10px;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  grid-template-rows: repeat(2, 100px);
+}

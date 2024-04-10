@@ -3,9 +3,7 @@ import "./index.css";
 import { FaComment } from "react-icons/fa6";
 
 const CharacterCard = ({ details }) => {
-  console.log(details);
   const { id, name, postedBy, description, comments, imageUrl } = details;
-  console.log(imageUrl);
   return (
     <li className="character-card-container" key={id}>
       <img alt="profile" id="character-image" src={imageUrl} />
