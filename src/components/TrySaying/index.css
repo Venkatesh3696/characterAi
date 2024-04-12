@@ -2,5 +2,5 @@
   display: none;
 }
 .try-saying-container {
-  background-color: rebeccapurple;
+  display: flex;
 }

@@ -68,6 +68,7 @@ function App() {
       <h1>Featured</h1>
       <Featured forYouItems={forYouItems} />
       <Topics topics={topics} forYouItems={forYouItems} />
+      <h1>Try saying</h1>
       <TrySaying trySaying={trySaying} />
     </div>
   );

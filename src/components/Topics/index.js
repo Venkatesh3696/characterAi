@@ -4,7 +4,7 @@ import CharacterCard from "../CharacterCard";
 
 const Topics = ({ topics, forYouItems }) => {
   return (
-    <div>
+    <div className="">
       <ul className="topics-container">
         {topics.map((each) => (
           <TopicCard details={each} />

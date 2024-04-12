@@ -4,6 +4,7 @@ import CharacterCard from "../CharacterCard";
 
 import Slider from "react-slick";
 var settings = {
+  dots: true,
   arrows: true,
   infinite: true,
   speed: 500,

@@ -1,0 +1,8 @@
+.try-saying-card-container {
+  list-style: none;
+  background-color: #e2e3e4;
+  width: 25%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
