@@ -4,3 +4,12 @@
   overflow-x: auto;
   gap: 10px;
 }
+.topic-characters-container {
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+}
+
+.topics-container::-webkit-scrollbar {
+  display: none;
+}

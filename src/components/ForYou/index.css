@@ -7,3 +7,6 @@
   padding: 30px;
   box-sizing: border-box;
 }
+.for-you-container::-webkit-scrollbar {
+  display: none;
+}

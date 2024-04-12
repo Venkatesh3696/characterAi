@@ -1,0 +1,6 @@
+.try-saying-container::-webkit-scrollbar {
+  display: none;
+}
+.try-saying-container {
+  background-color: rebeccapurple;
+}

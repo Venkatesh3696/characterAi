@@ -1,5 +1,4 @@
 .featured-container {
-  display: grid;
-  grid-auto-flow: column;
-  overflow-x: auto;
+  width: 100%;
+  height: 100%;
 }
